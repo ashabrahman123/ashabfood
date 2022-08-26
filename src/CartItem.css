@@ -1,3 +1,6 @@
+
+
+
 .error{
     
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; 
@@ -42,7 +45,13 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    cursor: pointer;
 
+}
+
+.error button:hover{
+    border: 5px solid #4d0000;
+    color: pink;
 }
 
  .mapchild1{
@@ -57,13 +66,16 @@
     top: 0;
     left: 0;
     z-index: 10;
- 
-
-
 }
 
 .prod1, .prod2, .prod3,.prod4{
     display: flex;
+}
+
+.btn1:hover , .btn2:hover, .btn3:hover, .btn4:hover{
+    border: 5px solid #4d0000;
+    color: pink;
+    /* width: 120px; */
 }
 
 .image img{
@@ -119,7 +131,12 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
+/* .btn1:hover{
+    cursor: pointer;
+    background-color: black;
+} */
 
 .inp2{
     margin-left: 135px;
@@ -138,6 +155,7 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
 
 .inp3{
@@ -157,6 +175,7 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 .inp4{
     margin-left: 135px;
@@ -175,7 +194,13 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
+
+.btn4 button:hover{
+    background-color: bisque;
+}
+
 .heading{
     display: flex;
     background-color:#9b1d43 ;
@@ -183,6 +208,10 @@
     width: 100%;
     
 }
+/* 
+.heading:hover{
+    background-color: aquamarine;
+} */
 .heading h1{
     color: white;
     margin-left: 50px;
@@ -191,15 +220,20 @@
 .heading button{
     margin-left: 900px;
     margin-top: 25px;
-    height: 40px;
-    width: 250px;
+    height: 50px;
+    width: 180px;
     background-color:  #4d0000;
     border: 2px solid #4d0000;
     border-radius: 10px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.heading button:hover{
+    color: pink;
+    border: 6px solid #ecaec0;
 }
 
 .TOTAL{
@@ -225,7 +259,13 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
+.TOTAL button:hover{
+    border: 5px solid #4d0000;
+    color: pink;
+}
+
 
 .order{
     background-color: #9b1d43;
@@ -236,6 +276,7 @@
     justify-content: space-around;
     padding-inline-start: 20px;
     padding-inline-end: 20px;
+    cursor: pointer;
    
 }
 
@@ -248,21 +289,29 @@ hr{
 
 @media (max-width:998px)
 {
-    
+    /* .mainashab2{
+        display: grid;
+        grid-template-columns: -305000px ;
+    } */
+    body{
+        width: 100%;
+    }
 .image img{
     width: 1300px;
     height: 900px;
+    
 }
 .heading h1{
      font-size: 80px;
 }
 
 .heading button{
-    margin-left: 300px;
-    font-size: 60px;
+    margin-left: 350px;
+    font-size: 110px;
     margin-top: 60px;
-    height: 90px;
-    width: 430px;
+    height: 120px;
+    width: 340px;
+    margin-bottom: 40px;
 }
 
 .order{
